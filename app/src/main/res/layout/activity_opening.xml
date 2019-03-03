@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".opening.OpeningActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffe4b5"
+            android:orientation="vertical">
+
+        <!--<workshop.jp.co.aainc.workshop.view.WaveAnimationLayout-->
+                <!--xmlns:attr="http://schemas.android.com/apk/res-auto"-->
+                <!--android:id="@+id/waveAnimationView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--attr:waveText="H o t  P e p p e r"-->
+                <!--attr:waveTextColor="#000000"-->
+                <!--attr:waveTextSize="35dp">-->
+        <!--</workshop.jp.co.aainc.workshop.view.WaveAnimationLayout>-->
+        <TextView
+                fontPath="fonts/HonyaJi-Re.ttf"
+                android:id="@+id/searchText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="150dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="H o t  P e p p e r"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/opening_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/knife_and_fork"/>
+
+</android.support.constraint.ConstraintLayout>

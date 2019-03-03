@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">HotPepper</string>
+    <string name="searching_current_location">現在地を検索中です...</string>
+    <string name="current_location_found">現在地が見つかりました...</string>
+    <string name="shop_not_found">店舗が見つかりませんでした</string>
+    <string name="ask_setting_keyword">キーワードが設定されていません</string>
+    <string name="ask_freeword">フリーワードを入力してください</string>
+    <string name="pickup_area">%s でピックアップ</string>
+    <string name="pickup_count">%d/%d</string>
+
+    <string name="dialog_title">LIKEしました</string>
+    <string name="dialog_content">Webページでこのお店を見ますか？</string>
+    <string name="dialog_positive_text">お店を見る</string>
+    <string name="dialog_negative_text">キャンセル</string>
+
+
+    <string-array name="menu_string_array">
+        <item>ジャンル設定</item>
+    </string-array>
+
+    <string-array name="keyword_string_array">
+        <item>居酒屋</item>
+        <item>レストラン</item>
+        <item>デート</item>
+        <item>立ち飲み</item>
+        <item>夜景</item>
+        <item>個室あり</item>
+        <item>掘りごたつあり</item>
+        <item>安い</item>
+        <item>オシャレ</item>
+    </string-array>
+
+    <string-array name="middle_area_code_array">
+        <item>Y005</item>
+        <item>Y006</item>
+        <item>Y007</item>
+        <item>Y010</item>
+        <item>Y013</item>
+        <item>Y015</item>
+        <item>Y016</item>
+        <item>Y017</item>
+        <item>Y018</item>
+        <item>Y020</item>
+        <item>Y025</item>
+        <item>Y026</item>
+        <item>Y030</item>
+        <item>Y035</item>
+        <item>Y040</item>
+        <item>Y045</item>
+        <item>Y046</item>
+        <item>Y050</item>
+        <item>Y051</item>
+        <item>Y055</item>
+        <item>Y056</item>
+        <item>Y057</item>
+        <item>Y060</item>
+        <item>Y070</item>
+        <item>Y072</item>
+        <item>Y073</item>
+        <item>Y074</item>
+        <item>Y075</item>
+        <item>Y076</item>
+        <item>Y077</item>
+        <item>Y078</item>
+        <item>Y079</item>
+        <item>Y080</item>
+        <item>Y081</item>
+        <item>Y082</item>
+        <item>Y083</item>
+        <item>Y088</item>
+        <item>Y100</item>
+        <item>Y110</item>
+        <item>Y135</item>
+        <item>Y100</item>
+        <item>Y100</item>
+        <item>Y100</item>
+    </string-array>
+
+    <string-array name="middle_area_array">
+        <item>銀座・有楽町・新橋・築地・月島</item>
+        <item>水道橋・飯田橋・神楽坂</item>
+        <item>お台場</item>
+        <item>東京・大手町・日本橋・人形町</item>
+        <item>四ツ谷・麹町・市ヶ谷・九段下</item>
+        <item>上野・御徒町・浅草</item>
+        <item>北千住・日暮里・葛飾・荒川</item>
+        <item>錦糸町・浅草橋・両国・亀戸</item>
+        <item>門前仲町・東陽町・木場・葛西</item>
+        <item>神田・神保町・秋葉原・御茶ノ水</item>
+        <item>品川･目黒･田町･浜松町･五反田</item>
+        <item>蒲田・大森・大田区</item>
+        <item>渋谷</item>
+        <item>原宿・青山・表参道</item>
+        <item>恵比寿・中目黒・代官山・広尾</item>
+        <item>赤坂・六本木・麻布十番・西麻布</item>
+        <item>自由が丘・田園調布</item>
+        <item>池袋</item>
+        <item>赤羽・王子・十条</item>
+        <item>新宿</item>
+        <item>新大久保・大久保</item>
+        <item>巣鴨・大塚・駒込</item>
+        <item>中野・高円寺・阿佐ヶ谷・方南町</item>
+        <item>下北沢・代々木上原</item>
+        <item>高田馬場</item>
+        <item>池尻大橋・三軒茶屋・駒沢大学</item>
+        <item>桜新町・用賀・二子玉川</item>
+        <item>祐天寺・学芸大学・都立大学</item>
+        <item>幡ヶ谷・笹塚・明大前・下高井戸</item>
+        <item>調布・府中・千歳烏山・仙川</item>
+        <item>経堂・千歳船橋</item>
+        <item>祖師ヶ谷大蔵・成城学園前</item>
+        <item>大井町･中延･旗の台･戸越･馬込</item>
+        <item>不動前・武蔵小山</item>
+        <item>雪が谷大塚・池上</item>
+        <item>武蔵小金井</item>
+        <item>国立・国分寺</item>
+        <item>吉祥寺・荻窪・三鷹</item>
+        <item>八王子・立川</item>
+        <item>横浜</item>
+    </string-array>
+
+</resources>
