@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="#00000000"
+                                             tools:context=".setting.SettingKeywordFragment">
+
+    <LinearLayout
+            android:id="@+id/shopListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/stToolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#deb887"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                android:minHeight="?attr/actionBarSize">
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+                fontPath="fonts/HonyaJi-Re.ttf"
+                android:id="@+id/set_keyword_description_text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:text="3個までキーワードを設定できます"
+                android:layout_weight="0.1"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <ListView
+                fontPath="fonts/HonyaJi-Re.ttf"
+                android:id="@+id/keyword_listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:background="#00000000"
+                android:choiceMode="multipleChoice"/>
+
+        <Button
+                fontPath="fonts/HonyaJi-Re.ttf"
+                android:id="@+id/enter_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="決定"
+                android:background="@drawable/shape_rounded_corners"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
